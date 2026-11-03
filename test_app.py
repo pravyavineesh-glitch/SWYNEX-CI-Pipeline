@@ -1,4 +1,5 @@
-from app import add_numbers, subtract_numbers, multiply_numbers
+from app import add_numbers, multiply_numbers, subtract_numbers
+
 
 def test_add_numbers():
     assert add_numbers(10,20) == 30
